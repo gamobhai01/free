@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMO BHAI</title>
+    <link rel="shortcut icon" href="img/117927858.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P|Russo+One" />
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background: #000;
+            color: #00ff00;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            animation: backgroundShift 20s linear infinite;
+        }
+
+        @keyframes backgroundShift {
+            0% { background-color: #000; }
+            50% { background-color: #333; }
+            100% { background-color: #000; }
+        }
+
+        .login-container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(0, 255, 0, 0.9);
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .login-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .login-container h1 {
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            color: #00ff00;
+            text-shadow: 0 0 15px rgba(0, 255, 0, 0.9);
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 2px solid #00ff00;
+            border-radius: 12px;
+            background: linear-gradient(145deg, #00ff00, #009900);
+            color: #000;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+        }
+
+        .login-container button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(0, 255, 0, 0.4);
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            z-index: 0;
+        }
+
+        .login-container button:hover::after {
+            opacity: 1;
+        }
+
+        .login-container button:hover {
+            background: linear-gradient(145deg, #009900, #00ff00);
+            color: #000;
+            transform: scale(1.05);
+        }
+
+        .login-container p {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .login-container a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h1>GAMO BHAI</h1>
+        <button onclick="window.location.href='basic'">FREE PANEL DOWNLOAD</button>
+        <button onclick="window.location.href='basic'">TUTORIAL</button>
+        <button onclick="window.location.href='https://cdn.discordapp.com/attachments/1209077442640085022/1280774352450617365/FREE_FIRE_APK_AMAZON.apk?ex=66e13691&is=66dfe511&hm=338c13967288124e9b5efd81a596528c0e6959a20e1fec346b20a5ca5e93f78a&'">FREE FIRE APK</button>
+        <button onclick="window.location.href='https://cdn.discordapp.com/attachments/1208976766354460692/1211255682649555034/msi-app-player.exe?ex=66e16e42&is=66e01cc2&hm=9e0d90ef54631f9f45bc48860e8b86b693701d651ca0b5a3de5d26444bf5b63a&'">EMULATOR LINK</button>
+
+
+     
+    </div>
+
+</body>
+
+</html>
